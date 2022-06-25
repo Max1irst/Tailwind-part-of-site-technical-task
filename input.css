@@ -24,9 +24,16 @@
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 2rem;
+        opacity: 0.5;
     }
 
     b {
         font-weight: 700;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
     }
 }
