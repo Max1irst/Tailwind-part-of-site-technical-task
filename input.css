@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-
-    h1 {
+    * {
         font-family: 'Manrope';
         font-style: normal;
+    }
+
+    h1 {
         font-weight: 700;
         font-size: 5rem;
         line-height: 5.625rem;
@@ -14,13 +16,9 @@
 
     a {
         text-decoration-skip-ink: auto;
-        color: #2D2D2D;
-        font-family: 'Manrope';
     }
 
     p {
-        font-family: 'Manrope';
-        font-style: normal;
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 2rem;
@@ -28,17 +26,20 @@
     }
 
     b {
-        font-family: 'Manrope';
-        font-style: normal;
         font-weight: 700;
     }
 
     h5 {
-        font-family: 'Manrope';
-        font-style: normal;
         font-weight: 600;
         font-size: 1.25rem;
         line-height: 2.5rem;
     }
-      
+
+    /* nav div>div:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(43, 43, 43, 0.79);
+        border-radius: 2rem;
+        color: #2B2B2B;
+        text-align: center;
+    } */
+
 }
