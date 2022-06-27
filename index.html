@@ -11,33 +11,34 @@
 
 <body>
     <section class="container max-w-[80rem] mx-auto">
-        <header class="container">
-            <nav
-                class="flex flex-row justify-between items-center text-blue-400 bg-white h-[6.25rem] px-[6.56rem] fixed top-0 left-0 right-0">
+        <header class="container fixed">
+            <nav class="flex flex-row justify-between items-center bg-white h-[6.25rem] px-[6.56rem]">
                 <!-- <a href="#"><span class="text-[#141414] font-bold text-[2.56rem]">Sabzer</span></a> -->
                 <!-- <img class="w-[1.25375rem] h-[1.58875rem]" src="/images/logo/S.png" alt="logo"> -->
                 <object type="image/svg+xml" data="./images/Sabzer.svg">
                     <img src="./images/Sabzer.svg" alt="Фолбэк">
                 </object>
-                <div class="flex flex-row justify-evenly items-center w-3/5">
+                <div class="flex flex-row justify-between items-center w-3/5">
                     <a href="#">ENG</a>
                     <a href="#">Work at Sabzer</a>
                     <a href="#">Partnership</a>
                     <a href="#">Contacts</a>
                 </div>
             </nav>
-            <div class="bg-[#3B3B3B] h-[37.5rem] w-full pt-[6.25rem] ">
+        </header>
+        <main>
+            <div class="flex flex-row bg-[#3B3B3B] h-[37.5rem]]">
                 <div class="flex flex-col justify-evenly items-center w-1/2 h-2/3 p-[6.25rem] text-[#F0F0F0]">
                     <h1>Grow your business</h1>
                     <p>Our goal at Sabzer Systems is to create a hyper-optimized digital presence for our customers to
                         facilitate acquisition, conversion and retention.</p>
                 </div>
+                <div>
+                    <img src="./images/bg/Layer 2.svg" alt="">
+                </div>
             </div>
-        </header>
-        <main>
-            <div
-                class="container flex flex-row items-center justify-between bg-[#3B3B3B] h-[31.25rem] text-[#F0F0F0] px-[6.56rem]">
-                <img class="absolute left-0 z-0" src="./images/bg/Intersect.svg" alt="">
+            <div class="container flex flex-row items-center justify-between bg-[#3B3B3B] h-[31.25rem] text-[#F0F0F0] px-[6.56rem] z-10">
+                <img class="absolute left-0 z-0 h-[31.25rem]" src="./images/bg/Intersect.svg" alt="">
                 <div class="flex flex-col items-start justify-center">
                     <h1 class="w-[17.6875] pb-7">Why us</h1>
                     <p class="w-[19rem]">We are a full-cycle software development company, and we can build you a
@@ -98,7 +99,6 @@
                         Analyze deployed product</p>
                 </div>
             </div>
-
             <div class="container bg-white h-[12.5rem] flex flex-row justify-between items-center px-[10.875rem] ">
                 <div>
                     <img src="./images/icons/Nestle.svg" alt="icon">
@@ -127,38 +127,37 @@
                     <p>Contact us, we can help you resolve it!</p>
                 </div>
                 <div class="pt-[3.5rem]">
-                    <button>Get started</button>
+                    <button
+                        class="w-[12.5rem] h-[4rem] bg-[#923A3A] rounded-[2rem] text-white font-['Poppins'] hover:bg-[#C71414]">Get
+                        started</button>
                 </div>
-            </div>
             </div>
         </main>
         <footer>
-            <div
-                class="container bg-white h-[16.5rem] flex flex-row columns-2 justify-between items-center px-[6.56rem] ">
-                <div class="flex flex-col gap-7">
-                    <div>
-                        <a href=""><span class="text-[#141414] font-bold text-[1.56rem] tracking-wide">Sabzer</span></a>
-                    </div>
-                    <div>
-                        <p>+37369999999</p>
-                        <p>contact@sabzer.com</p>
-                        <p>str. Fratelli</p>
-                    </div>
+            <div class="container bg-white h-[16.5rem] flex flex-row justify-between items-center px-[6.56rem]">
+                <div>
+                    <object type="image/svg+xml" data="./images/Sabzer.svg">
+                        <img src="./images/Sabzer.svg" alt="Фолбэк">
+                    </object>
+                    <p class="font-['Poppins'] opacity-100 font-semibold pt-[1.59875rem]">+37369999999</p>
+                    <p class="font-['Poppins'] opacity-100 font-semibold">contact@sabzer.com</p>
+                    <p class="font-['Poppins'] opacity-100 font-semibold">str. Fratelli</p>
                 </div>
-                <div class="flex flex-col gap-7">
+                <div class="flex flex-col leading-[1.125rem] gap-7">
                     <div class="flex flex-row gap-3 justify-end">
                         <a href="#"><span>About Us</span></a>
                         <a href="#"><span>Work at Sabzer</span></a>
                         <a href="#"><span>Partnership</span></a>
                     </div>
                     <div class="flex flex-row gap-3 justify-end ">
-                        <a href="#"><img src="#" alt="icon"></a>
-                        <a href="#"><img src="#" alt="icon"></a>
-                        <a href="#"><img src="#" alt="icon"></a>
+                        <a href="#"><img src="./images/icons/Facebook.svg" alt="icon"></a>
+                        <a href="#"><img src="./images/icons/Linkedin.svg" alt="icon"></a>
+                        <a href="#"><img src="./images/icons/Instagram.svg" alt="icon"></a>
                     </div>
-                    <div class="flex flex-row gap-3 justify-end">
-                        <a href="#"><span>COMPANY 2022</span></a>
-                        <a href="#"><span>Privacy policy & Terms of use</span></a>
+                    <div class="flex flex-row gap-3">
+                        <a href="#"><span class="font-['Poppins'] opacity-100 font-semibold">COMPANY 2022</span></a>
+                        <a href="#"><span class="font-['Poppins'] opacity-100 font-semibold">Privacy policy & Terms of
+                                use</span></a>
                     </div>
                 </div>
             </div>

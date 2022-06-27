@@ -3,12 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-    * {
-        font-family: 'Manrope';
-        font-style: normal;
-    }
 
     h1 {
+        font-family: 'Manrope';
+        font-style: normal;
         font-weight: 700;
         font-size: 5rem;
         line-height: 5.625rem;
@@ -21,6 +19,8 @@
     }
 
     p {
+        font-family: 'Manrope';
+        font-style: normal;
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 2rem;
@@ -28,10 +28,14 @@
     }
 
     b {
+        font-family: 'Manrope';
+        font-style: normal;
         font-weight: 700;
     }
 
     h5 {
+        font-family: 'Manrope';
+        font-style: normal;
         font-weight: 600;
         font-size: 1.25rem;
         line-height: 2.5rem;
