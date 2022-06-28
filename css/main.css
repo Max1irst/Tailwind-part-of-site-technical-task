@@ -756,36 +756,8 @@ h5 {
   left: 3.5625rem;
 }
 
-.left-\[45\] {
-  left: 45;
-}
-
-.left-\[45\.0625\] {
-  left: 45.0625;
-}
-
-.top-\[\] {
-  top: ;
-}
-
-.top-\[47\.44\] {
-  top: 47.44;
-}
-
-.top-\[47\.4425rem\] {
-  top: 47.4425rem;
-}
-
 .left-\[45\.0625rem\] {
   left: 45.0625rem;
-}
-
-.top-\[12\.4425rem\] {
-  top: 12.4425rem;
-}
-
-.top-\[12\.5rem\] {
-  top: 12.5rem;
 }
 
 .top-\[12\.2rem\] {
@@ -807,6 +779,10 @@ h5 {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[6\.25rem\] {
@@ -869,28 +845,12 @@ h5 {
   height: 37.5rem;
 }
 
-.h-\[16\.5rem\] {
-  height: 16.5rem;
-}
-
 .h-4\/5 {
   height: 80%;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[5\.\] {
-  height: 5.;
-}
-
-.h-\[5\.625\] {
-  height: 5.625;
-}
-
-.h-\[5\.625rem\] {
-  height: 5.625rem;
+.h-\[16\.5rem\] {
+  height: 16.5rem;
 }
 
 .w-\[1\.25375rem\] {
@@ -957,6 +917,10 @@ h5 {
   width: 12.5rem;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .max-w-\[80rem\] {
   max-width: 80rem;
 }
@@ -975,10 +939,6 @@ h5 {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -1048,11 +1008,6 @@ h5 {
   padding-right: 10.875rem;
 }
 
-.px-\[6\.25rem\] {
-  padding-left: 6.25rem;
-  padding-right: 6.25rem;
-}
-
 .pt-\[1\.875rem\] {
   padding-top: 1.875rem;
 }
@@ -1069,28 +1024,20 @@ h5 {
   padding-top: 3.5rem;
 }
 
-.pt-\[1\.59875rem\] {
-  padding-top: 1.59875rem;
+.pl-\[6\.25rem\] {
+  padding-left: 6.25rem;
+}
+
+.pt-\[4\.5625rem\] {
+  padding-top: 4.5625rem;
 }
 
 .pt-\[2rem\] {
   padding-top: 2rem;
 }
 
-.pl-\[6\.25rem\] {
-  padding-left: 6.25rem;
-}
-
-.pt-\[\] {
-  padding-top: ;
-}
-
-.pt-\[4\] {
-  padding-top: 4;
-}
-
-.pt-\[4\.5625rem\] {
-  padding-top: 4.5625rem;
+.pt-\[1\.59875rem\] {
+  padding-top: 1.59875rem;
 }
 
 .text-center {
@@ -1149,16 +1096,12 @@ h5 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-100 {
-  opacity: 1;
-}
-
-.opacity-\[\] {
-  opacity: ;
-}
-
 .opacity-\[0\.28\] {
   opacity: 0.28;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .hover\:bg-\[\#C71414\]:hover {
