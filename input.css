@@ -35,11 +35,10 @@
         line-height: 2.5rem;
     }
 
-    /* nav div>div:hover {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(43, 43, 43, 0.79);
-        border-radius: 2rem;
-        color: #2B2B2B;
-        text-align: center;
-    } */
+    h2 {
+        font-weight: 700;
+        font-size: 3.75rem;
+        line-height: 2rem;
+    }
 
 }
