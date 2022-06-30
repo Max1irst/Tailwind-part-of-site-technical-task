@@ -41,4 +41,16 @@
         line-height: 2rem;
     }
 
+    input::placeholder {
+        background-image: src('./images/form-icons/settings.svg');
+        padding-left: 2rem;
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.015rem;
+        color: #000000;
+        opacity: 0.4;
+    }
+
+
 }
+

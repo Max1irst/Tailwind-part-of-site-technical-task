@@ -631,6 +631,36 @@ h2 {
   line-height: 2rem;
 }
 
+input::-moz-placeholder {
+  background-image: src('./images/form-icons/settings.svg');
+  padding-left: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.015rem;
+  color: #000000;
+  opacity: 0.4;
+}
+
+input:-ms-input-placeholder {
+  background-image: src('./images/form-icons/settings.svg');
+  padding-left: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.015rem;
+  color: #000000;
+  opacity: 0.4;
+}
+
+input::placeholder {
+  background-image: src('./images/form-icons/settings.svg');
+  padding-left: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.015rem;
+  color: #000000;
+  opacity: 0.4;
+}
+
 .fixed {
   position: fixed;
 }
@@ -763,6 +793,30 @@ h2 {
   top: 12.2rem;
 }
 
+.top-\[1rem\] {
+  top: 1rem;
+}
+
+.top-\[0\.7rem\] {
+  top: 0.7rem;
+}
+
+.top-\[0\.65rem\] {
+  top: 0.65rem;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[0\.5rem\] {
+  left: 0.5rem;
+}
+
+.top-\[0\.625rem\] {
+  top: 0.625rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -854,6 +908,14 @@ h2 {
 
 .h-\[43\.5625rem\] {
   height: 43.5625rem;
+}
+
+.h-\[2\.3956rem\] {
+  height: 2.3956rem;
+}
+
+.h-\[3\.3943rem\] {
+  height: 3.3943rem;
 }
 
 .h-\[16\.5rem\] {
@@ -1212,3 +1274,4 @@ h2 {
   --tw-bg-opacity: 1;
   background-color: rgb(199 20 20 / var(--tw-bg-opacity));
 }
+
