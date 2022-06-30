@@ -1,6 +1,6 @@
 
-// $(document).ready(function () {
-//     $('#getStarted').click(function () {
-//         $('#youGet').removeClass('hidden');
-//       }); 
-// });
+$(document).ready(function () {
+    $('#getStarted').click(function () {
+        $('#youGet').removeClass('hidden');
+      }); 
+});

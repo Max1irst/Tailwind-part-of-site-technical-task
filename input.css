@@ -51,6 +51,10 @@
         opacity: 0.4;
     }
 
-
 }
 
+.checkbox{
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.015rem;
+}
