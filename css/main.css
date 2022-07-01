@@ -593,7 +593,7 @@ video {
 }
 
 * {
-  font-family: 'Manrope';
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
 }
 
@@ -1195,20 +1195,12 @@ input::placeholder {
   padding-bottom: 1.5rem;
 }
 
-.pt-\[1\.59875rem\] {
-  padding-top: 1.59875rem;
-}
-
-.pt-\[\] {
-  padding-top: ;
-}
-
-.pt-\[2\.0625\] {
-  padding-top: 2.0625;
-}
-
 .pt-\[2\.0625rem\] {
   padding-top: 2.0625rem;
+}
+
+.pt-\[1\.59875rem\] {
+  padding-top: 1.59875rem;
 }
 
 .text-center {
